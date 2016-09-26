@@ -16,7 +16,7 @@ if __name__ == "__main__":
     for linea in lineas:
         #lista = linea[:-1].split(',')
 
-        operation = linea.split(',')[0]
+        operaciones = linea.split(',')[0]
         numbers = linea.split(',')[1:]
         result = int(numbers[0])
 
