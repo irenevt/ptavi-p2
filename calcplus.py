@@ -15,7 +15,7 @@ if __name__ == "__main__":
     calcplus = calcoohija.CalculadoraHija()
     for linea in lineas:
 
-        numeros = linea.split(',')[1:]        
+        numeros = linea.split(',')[1:] 
         operacion = linea.split(',')[0]
         result = int(numeros[0])
 

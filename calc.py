@@ -27,7 +27,7 @@ if __name__ == "__main__":
     except ValueError:
         sys.exit("Error: Non numerical parameters")
 
-    if sys.argv[2] == "suma":
+    if sys.argv[2] = = "suma":
         result = plus(operando1, operando2)
     elif sys.argv[2] == "resta":
         result = minus(operando1, operando2)
@@ -36,7 +36,8 @@ if __name__ == "__main__":
     elif sys.argv[2] == "divide":
         if sys.argv[2]== "0":
             sys.exit('No se puede dividir entre 0')
-        else: result= div(operando1, operando2)
+        else: 
+            result= div(operando1, operando2)
 		
 
     else:

@@ -32,13 +32,13 @@ if __name__ == "__main__":
     elif sys.argv[2] == "resta":
         result = calculadorahija.restar(operando1, operando2)
     elif sys.argv[2] == "multiplica":
-        result = calculadorahija.multiplicar(operando1,operando2)
+        result = calculadorahija.multiplicar(operando1, operando2)
     elif sys.argv[2] == "divide":
         if sys.argv[3] == "0":
             sys.exit("No se puede dividir entre 0.")
         else:
-            result = calculadorahija.div(operando1,operando2)
+            result = calculadorahija.div(operando1, operando2)
     else:
-        sys.exit("La operación solo puede ser suma, resta, multiplica o divide.")
+        sys.exit("Suma, resta, multiplica o divide.")
 
     print(result)
