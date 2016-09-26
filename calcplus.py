@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import sys
-import calcoohija
 import calcoo
+import calcoohija
 
 
 ficheroOperaciones = open('fichero.csv')
