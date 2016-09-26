@@ -22,7 +22,7 @@ if __name__ == "__main__":
         operando2 = int(sys.argv[3])
         
 
-  except ValueError:
+    except ValueError:
         sys.exit("Error: Non numerical parameters")
 
     if sys.argv[2] == "suma":
